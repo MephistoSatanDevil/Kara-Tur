@@ -888,6 +888,9 @@ Protection from all forms of Gaze Attacks
 Gains Wondering Eye 1/Day (Wizard Eye)
 Gains Blind Strike 1/Day (Every hit Crits for 5 seconds) */
 
+	OUTER_SET ability2strref = RESOLVE_STR_REF (@408)
+	APPEND ~tooltip.2da~ ~KTHLM03    -1    %ability2strref%       -1~
+
 COPY ~KARATUR/ITM/KTHLM04.itm~ ~OVERRIDE/KTHLM04.itm~
   SAY 0x8 @397 /* Stone Eye */
   SAY 0xC @398 /* Left Eye of Genzou */
@@ -905,6 +908,9 @@ Invravision
 Protection from all forms of Gaze Attacks
 Gains Wondering Eye 2/Day (Wizard Eye)
 Gains Blind Strike 2/Day (Every hit Crits for 5 seconds) */
+
+	OUTER_SET ability2strref = RESOLVE_STR_REF (@408)
+	APPEND ~tooltip.2da~ ~KTHLM03    -1    %ability2strref%       -1~
 
 //Copying Spells
 
