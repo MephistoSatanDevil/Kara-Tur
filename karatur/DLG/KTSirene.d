@@ -23,16 +23,16 @@ END
 IF ~~ THEN BEGIN KTS1_2
 SAY @203 /* So <CHARNAME> you do know of the treasure in which my master and I seek to possess, and from what I can ascertain, as my skills in such are great; you know more of this Red Bag than my master cared to share with me. Tell me now, and tell me fully what you have learned, and perhaps your useless life will be spared. */
 IF ~~ THEN REPLY @204 /* Bag of Red, know of we do ... sorry, it's a long story ... yes we know of the Red Bag, that you and your master wish to possess. We know of the owner of the Red Bag and that the bag is a magical item that only he may operate, and that a particularly strange crystal is required to move the Red Bag. We also know that it contains some type of treasures from lands far from here. */ GOTO KTS1_3
-IF ~~ THEN REPLY @205 /* No, I am afraid your evil nature and intent is obvious to me, for my skills in such are great as well. Whether or not the Red Bag is of concern, we will strike you down where you stand! BAG OF RED .... FIGHT FOR WILL WE!  */ DO ~SetGlobal("KTSiren","GLOBAL",2)~ EXIT
+IF ~~ THEN REPLY @205 /* No, I am afraid your evil nature and intent is obvious to me, for my skills in such are great as well. Whether or not the Red Bag is of concern, we will strike you down where you stand! BAG OF RED .... FIGHT FOR WILL WE!  */ DO ~SetGlobal("KTSiren","GLOBAL",2) Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN KTS1_3
 SAY @206 /* Very smart of you to divulge all of the information in your small and slow mind, surely the weight of which must have been quite painful. Now you may hand over the crystal you possess, and I will gladly make you a thrall to serve the needs of my master and I. */
-IF ~~ THEN REPLY @207 /* For one so great in power, you have mislead yourself as to our ability. The Red Bag, and the crystal will be returned to their rightful owner. Do your worst creature ... BAG OF RED .... FIGHT FOR WILL WE! */ DO ~SetGlobal("KTSiren","GLOBAL",2)~ EXIT
+IF ~~ THEN REPLY @207 /* For one so great in power, you have mislead yourself as to our ability. The Red Bag, and the crystal will be returned to their rightful owner. Do your worst creature ... BAG OF RED .... FIGHT FOR WILL WE! */ DO ~SetGlobal("KTSiren","GLOBAL",2) Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN KTS1_4
 SAY @208 /* It is truly a shame you have decided to remove any chance of serving my master and I. Now you will die a slow and painful death at the hands of my thralls and I .... COME TO ME MY THRALLS! */
-IF ~~ THEN REPLY @209 /* BAG OF RED .... FIGHT FOR WILL WE! */ DO ~SetGlobal("KTSiren","GLOBAL",2)~ EXIT
+IF ~~ THEN REPLY @209 /* BAG OF RED .... FIGHT FOR WILL WE! */ DO ~SetGlobal("KTSiren","GLOBAL",2) Enemy()~ EXIT
 END
 END

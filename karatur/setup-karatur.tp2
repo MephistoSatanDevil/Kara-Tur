@@ -1,7 +1,7 @@
 BACKUP ~weidu_external/KaraTur/backup~
 AUTHOR ~Corsymyr~
 
-VERSION ~2.0~
+VERSION ~2.0.1~
 
 
 ALWAYS
@@ -109,7 +109,7 @@ COPY ~KaraTur/CRE/KTsiren1.CRE~ ~override/KTsiren1.cre~
   WRITE_ASCII SCRIPT_CLASS ~SHOUT~ (8)
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~ (8)
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTsiren1~
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
@@ -124,7 +124,7 @@ COPY ~KaraTur/CRE/KTsiren2.CRE~ ~override/KTsiren2.cre~
   WRITE_ASCII SCRIPT_CLASS ~~ (8)
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~ (8)
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTsiren2~
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
@@ -138,7 +138,7 @@ COPY ~KaraTur/CRE/KTsiren3.CRE~ ~override/KTsiren3.cre~
   WRITE_ASCII SCRIPT_CLASS ~~ (8)
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~ (8)
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTsiren3~
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
@@ -149,7 +149,7 @@ COPY ~KaraTur/CRE/KTWiz01.CRE~ ~override/KTWiz01.cre~
   SAY 0x8 @305 /* Sailor Mage of Alura */
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~ (8)
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTWiz01~
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
@@ -160,7 +160,7 @@ COPY ~KaraTur/CRE/KTWiz02.CRE~ ~override/KTWiz02.cre~
   SAY 0x8 @305 /* Sailor Mage of Alura */
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTWiz02~
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
@@ -170,7 +170,7 @@ COPY ~KaraTur/CRE/KTWiz03.CRE~ ~override/KTWiz03.cre~
   SAY 0x8 @305 /* Sailor Mage of Alura */
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
-  WRITE_ASCII SCRIPT_DEFAULT ~KTGOL01~
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
   WRITE_ASCII DEATHVAR ~KTWiz03~
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
@@ -179,36 +179,46 @@ COPY ~KaraTur/CRE/KTWiz03.CRE~ ~override/KTWiz03.cre~
 COPY ~KaraTur/CRE/KTAss01.CRE~ ~override/KTAss01.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTAss01~ (12)
   
 COPY ~KaraTur/CRE/KTAss02.CRE~ ~override/KTAss02.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTAss02~ (12)
   
 COPY ~KaraTur/CRE/KTAss03.CRE~ ~override/KTAss03.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTAss03~ (12)
   
 COPY ~KaraTur/CRE/KTArch01.CRE~ ~override/KTArch01.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTArch01~ (10)
   
 COPY ~KaraTur/CRE/KTArch02.CRE~ ~override/KTArch02.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTArch02~ (10)
   
 COPY ~KaraTur/CRE/KTArch03.CRE~ ~override/KTArch03.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
   WRITE_ASCII DEATHVAR ~KTArch03~ (10)
   
 COPY ~KaraTur/CRE/KTGolem.CRE~ ~override/KTGolem.cre~
   SAY 0x8 @308 /* Golem of Alura */
   SAY 0xC @308 /* Golem of Alura */
+  WRITE_ASCII SCRIPT_CLASS ~~ (8)
+  WRITE_ASCII SCRIPT_RACE ~~ (8)
+  WRITE_ASCII SCRIPT_GENERAL ~~ (8)
+  WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
 
 //Copying Item Files
 

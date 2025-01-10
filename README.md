@@ -41,6 +41,7 @@ v2.0
 - Corrections for Global
 - Traification
 - Correct Ktstore.sto (BWP fix)
+- Correction for Left Eye of Genzou thanks to Lumorus
 
 v...
 - Initial release
