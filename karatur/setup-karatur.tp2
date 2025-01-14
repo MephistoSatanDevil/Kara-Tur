@@ -34,7 +34,7 @@ ALWAYS
 				out_path = EVAL ~weidu_external/KaraTur/Languages/autotra/UTF8~
 				iconv_path = ~KaraTur/Languages/autotra/iconv~
 				// noconvert_array = PoF_noconvert
-				reload_array = PoF_reload
+				reload_array = KaraTur_reload
 			END
 
 	// Backup ANSI
@@ -50,6 +50,10 @@ AUTO_TRA ~weidu_external/KaraTur/Languages/autotra/%s~
 LANGUAGE ~English~
          ~english~
          ~KaraTur/Languages/English/setup.tra~
+
+LANGUAGE ~Spanish~
+         ~spanish~
+         ~KaraTur/Languages/spanish/setup.tra~
 
 
 BEGIN @300 /* T'Was a Slow Boat from Kara-Tur */

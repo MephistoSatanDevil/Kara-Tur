@@ -42,6 +42,7 @@ v2.0
 - Traification
 - Correct Ktstore.sto (BWP fix)
 - Correction for Left Eye of Genzou thanks to Lumorus
+- Spanish translation thanks to salaisFCZ !
 
 v...
 - Initial release
