@@ -1,6 +1,6 @@
 # kara-tur
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20spanish%20%7C%20&color=informational)
 
 **Autor** : **Corsymyr**
 
@@ -28,7 +28,7 @@ Follow the prompt
 ## Version History:
 ----------------
 
-v2.0
+v2.0.2
 - EE/EET compatibility
 - Gw function for Bam
 - IconV Autotra
