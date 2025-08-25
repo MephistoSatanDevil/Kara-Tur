@@ -82,7 +82,7 @@ COPY ~KaraTur/BMP/Monk01_s.bmp~ ~override/Monk01_s.bmp~
 COPY ~KaraTur/CRE/KTMonk01.CRE~ ~override/KTmonk01.cre~
   SAY 0x8 @301 /* Seini Korasu */
   SAY 0xC @301 /* Seini Korasu */
-  WRITE_ASCII DEATHVAR ~KTMonk01~
+  WRITE_ASCII DEATHVAR ~KTMonk01~ (32)
   
 COPY ~KaraTur/CRE/KTMonk02.CRE~ ~override/KTmonk02.cre~
   SAY 0x8 @302 /* Kara-Tur Monk */
@@ -98,7 +98,7 @@ COPY ~KaraTur/CRE/KTSuc01.CRE~ ~override/KTsuc01.cre~
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTASIGHT~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~KTSUC01~ (8)
-  WRITE_ASCII DEATHVAR ~KTSuc01~
+  WRITE_ASCII DEATHVAR ~KTSuc01~ (32)
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
   ADD_KNOWN_SPELL ~SPWI406~ #3 ~wizard~
@@ -114,7 +114,7 @@ COPY ~KaraTur/CRE/KTsiren1.CRE~ ~override/KTsiren1.cre~
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTsiren1~
+  WRITE_ASCII DEATHVAR ~KTsiren1~ (32)
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
   ADD_MEMORIZED_SPELL ~SPWI316~ #2 ~wizard~ ( 3 )
@@ -129,7 +129,7 @@ COPY ~KaraTur/CRE/KTsiren2.CRE~ ~override/KTsiren2.cre~
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTsiren2~
+  WRITE_ASCII DEATHVAR ~KTsiren2~ (32)
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
   ADD_MEMORIZED_SPELL ~SPWI316~ #2 ~wizard~ ( 4 )
@@ -143,7 +143,7 @@ COPY ~KaraTur/CRE/KTsiren3.CRE~ ~override/KTsiren3.cre~
   WRITE_ASCII SCRIPT_RACE ~~ (8)
   WRITE_ASCII SCRIPT_GENERAL ~WTARSGT~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTsiren3~
+  WRITE_ASCII DEATHVAR ~KTsiren3~ (32)
   ADD_KNOWN_SPELL ~SPWI316~ #2 ~wizard~
   ADD_KNOWN_SPELL ~SPWI405~ #3 ~wizard~
   ADD_MEMORIZED_SPELL ~SPWI316~ #2 ~wizard~ ( 4 )
@@ -154,7 +154,7 @@ COPY ~KaraTur/CRE/KTWiz01.CRE~ ~override/KTWiz01.cre~
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTWiz01~
+  WRITE_ASCII DEATHVAR ~KTWiz01~ (32)
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI112~ #0 ~wizard~ ( 4 )
@@ -165,7 +165,7 @@ COPY ~KaraTur/CRE/KTWiz02.CRE~ ~override/KTWiz02.cre~
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTWiz02~
+  WRITE_ASCII DEATHVAR ~KTWiz02~ (32)
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI112~ #0 ~wizard~ ( 4 )
@@ -175,7 +175,7 @@ COPY ~KaraTur/CRE/KTWiz03.CRE~ ~override/KTWiz03.cre~
   SAY 0xC @305 /* Sailor Mage of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~MAGE2~ (8)
   WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTWiz03~
+  WRITE_ASCII DEATHVAR ~KTWiz03~ (32)
   ADD_MEMORIZED_SPELL ~SPWI212~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI205~ #1 ~wizard~ ( 4 )
   ADD_MEMORIZED_SPELL ~SPWI112~ #0 ~wizard~ ( 4 )
@@ -184,37 +184,37 @@ COPY ~KaraTur/CRE/KTAss01.CRE~ ~override/KTAss01.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTAss01~ (12)
+  WRITE_ASCII DEATHVAR ~KTAss01~ (32)
   
 COPY ~KaraTur/CRE/KTAss02.CRE~ ~override/KTAss02.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTAss02~ (12)
+  WRITE_ASCII DEATHVAR ~KTAss02~ (32)
   
 COPY ~KaraTur/CRE/KTAss03.CRE~ ~override/KTAss03.cre~
   SAY 0x8 @306 /* Sailor Rogue of Alura */
   SAY 0xC @306 /* Sailor Rogue of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTAss03~ (12)
+  WRITE_ASCII DEATHVAR ~KTAss03~ (32)
   
 COPY ~KaraTur/CRE/KTArch01.CRE~ ~override/KTArch01.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTArch01~ (10)
+  WRITE_ASCII DEATHVAR ~KTArch01~ (32)
   
 COPY ~KaraTur/CRE/KTArch02.CRE~ ~override/KTArch02.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTArch02~ (10)
+  WRITE_ASCII DEATHVAR ~KTArch02~ (32)
   
 COPY ~KaraTur/CRE/KTArch03.CRE~ ~override/KTArch03.cre~
   SAY 0x8 @307 /* Sailor Archer of Alura */
   SAY 0xC @307 /* Sailor Archer of Alura */
   WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
-  WRITE_ASCII DEATHVAR ~KTArch03~ (10)
+  WRITE_ASCII DEATHVAR ~KTArch03~ (32)
   
 COPY ~KaraTur/CRE/KTGolem.CRE~ ~override/KTGolem.cre~
   SAY 0x8 @308 /* Golem of Alura */
