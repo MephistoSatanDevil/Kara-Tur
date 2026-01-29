@@ -22,10 +22,11 @@ ALWAYS
     LAF autotra_workaround END
 
 	ACTION_IF GAME_IS ~bgee eet~ BEGIN
-//  ACTION_DEFINE_ARRAY KaraTur_noconvert BEGIN END
+
+		ACTION_DEFINE_ARRAY KaraTur_noconvert BEGIN install	END
 
 		ACTION_DEFINE_ARRAY KaraTur_reload BEGIN Setup END
-		ACTION_DEFINE_ARRAY KaraTur_noconvert BEGIN install	END
+
 			LAF HANDLE_CHARSETS
 				INT_VAR
 				infer_charsets = 1
@@ -57,6 +58,7 @@ LANGUAGE ~Spanish~
 
 LANGUAGE ~Simplified Chinese~
          ~schinese~
+         ~KaraTur/Languages/SChinese/setup.tra~
          ~KaraTur/Languages/SChinese/install.tra~
 
 BEGIN @300 /* T'Was a Slow Boat from Kara-Tur */
